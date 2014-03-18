@@ -1,0 +1,87 @@
+<div id="sp-nav" ng-swipe-left="$spMenu.toggle(); toggler();">
+    <div class="topcoat-list">
+    	<ul class="topcoat-list__container">
+            <li class="topcoat-list__item">
+                <div class="topcoat-navigation-bar__item left quarter float-left decenteredButton">
+                    <a class="topcoat-icon-button float-left" ng-click="$spMenu.toggle(); toggler();">
+				        <span class="topcoat-icon topcoat-icon--menu-stack float-left"><img src="img/listview.svg"></span>
+			        </a>
+		        </div>
+            </li>
+			<li class="topcoat-list__item">
+                <div ng-click="goHome()">
+                <div class="imgHold">
+                <img src="img/home.svg" class="float-left iconThumb" alt="Image"/>
+                </div>
+                    Home
+                </div>
+            </li>
+    		<li class="topcoat-list__item">
+                <div ng-click="showCategories()">
+                <div class="imgHold">
+                    <img src="img/listview.svg" class="float-left iconThumb" alt="Image"/>
+                </div>
+                    Categories
+                </div>
+            </li>
+			<li class="topcoat-list__item">
+                <div ng-click="showAboutUs()">
+                <div class="imgHold">
+                <img src="img/brush.svg" class="float-left iconThumb" alt="Image"/>
+                </div>
+                    About Us
+                </div>
+            </li>
+            <li class="topcoat-list__item">
+                <div>
+                <form ng-submit="searching()">
+                    <input type="text" class="topcoat-text-input" placeholder="Search" value="" ng-model="query" id="Text1" >
+                </form>    
+                </div>
+            </li>
+            
+		</ul>
+	</div>
+
+</div>
+
+
+
+
+<div id="sp-page" ng-swipe-right="$spMenu.toggle(); toggler();" >
+
+	   <div class="topcoat-navigation-bar" >
+		
+            <a class="topcoat-icon-button nav-header float-left centeredButton" style="line-height: 2rem;" ng-click="doTheBack()"><</a>
+
+            <div class="topcoat-navigation-bar__item center half centeredImg leftGap">
+                <img class="ImgHead" src="img/LOGO11.jpg" >
+            </div>
+
+            <div class="topcoat-navigation-bar__item left quarter float-right centeredButton">
+                <a class="topcoat-icon-button float-right" ng-click="$spMenu.toggle(); toggler();">
+
+                    <span class="topcoat-icon topcoat-icon--menu-stack float-right"><img src="img/listview.svg"></span>
+                </a>
+            </div>
+        
+	   </div>
+
+
+	<div class="topcoat-list">
+		<ul class="topcoat-list__container">
+			<li class="topcoat-list__item listArt" ng-repeat="datas in data" style="clear:both; display:inline-block;">
+                <div style="float:left; width:35%;">
+                    <img style="width:100%" src="{{datas.image}}.jpg" />
+                </div>
+				<div ng-click="changeView(datas.articleid)" style="width:60%; float:right;">
+					<h4>{{datas.title}}</h4>
+					<h7>{{datas.articlesnippet}}</h7>
+				</div>
+
+			</li>
+		</ul>
+	</div>
+
+
+</div>

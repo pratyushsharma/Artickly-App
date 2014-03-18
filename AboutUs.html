@@ -1,0 +1,113 @@
+<div id="sp-nav" ng-swipe-left="$spMenu.toggle(); toggler();">
+    <div class="topcoat-list">
+    	<ul class="topcoat-list__container">
+            <li class="topcoat-list__item">
+                <div class="topcoat-navigation-bar__item left quarter float-left decenteredButton">
+    	            <a class="topcoat-icon-button float-left" ng-click="$spMenu.toggle(); toggler();">
+				        <span class="topcoat-icon topcoat-icon--menu-stack float-left"><img src="img/listview.svg"></span>
+			        </a>
+		        </div>
+            </li>
+			<li class="topcoat-list__item fader">
+            
+                <div ng-click="goHome()">
+                <div class="imgHold">
+                <img src="img/home.svg" class="float-left iconThumb" alt="Image"/>
+                </div>
+                    Home
+                </div>
+            </li>
+    		<li class="topcoat-list__item fader">
+                <div ng-click="showCategories()">
+                <div class="imgHold">
+                    <img src="img/listview.svg" class="float-left iconThumb" alt="Image"/>
+                </div>
+                    Categories
+                </div>
+            </li>
+			<li class="topcoat-list__item fader">
+                <div ng-click="showAboutUs()">
+                <div class="imgHold">
+                <img src="img/brush.svg" class="float-left iconThumb" alt="Image"/>
+                </div>
+                    About Us
+                </div>
+            </li>
+            <li class="topcoat-list__item fader">
+                <div>
+                <form ng-submit="searching()">
+                    <input type="text" class="topcoat-text-input" placeholder="Search" value="" ng-model="query" id="Text1" >
+                </form>    
+                </div>
+            </li>
+            
+		</ul>
+	</div>
+
+</div>
+
+
+<div id="sp-page" ng-swipe-right="$spMenu.toggle(); toggler();">
+    
+    
+     
+	<div class="topcoat-navigation-bar" >
+		
+        <a class="topcoat-icon-button nav-header float-left centeredButton" style="line-height: 2rem;" ng-click="doTheBack()"><</a>
+        
+        <div class="topcoat-navigation-bar__item center half centeredImg leftGap">
+			<img class="ImgHead" src="img/LOGO11.jpg" >
+		</div>
+        
+        <div class="topcoat-navigation-bar__item left quarter float-right centeredButton">
+		<a class="topcoat-icon-button float-right" ng-click="$spMenu.toggle(); toggler();">
+
+				<span class="topcoat-icon topcoat-icon--menu-stack float-right"><img src="img/listview.svg"></span>
+			</a>
+		</div>
+        
+	</div>
+    
+    
+    <div class="content">
+    
+    <div class="{{class}}">
+    		<div id="magic" ng-click="clicker()">
+                {{BlaBla}}
+            </div>
+    </div>
+    
+   
+    <div class="topcoat-list">
+        <ul class="topcoat-list__container">
+			<li class="topcoat-list__item" ng-click="clicker()">
+                <div id="img"><img src = "img/quotes.jpg" style="width: 100%;"></div> <div> 
+        <p class="para" ><H4 class="h_4" >
+            Artickly is a platform for your thoughts. We at artickly strive to make your article get the attention you deserve and spread it among the intelligentsia all over the world. You can post it at a blog but Artickly promotes your ideas to get noticed, entertain and change the world.</H4>
+        </p>
+        <p class="para"><H4 class="h_4" >
+            Artickly is a platform for ideas that are different from the mob and revolutionary for the weak. It is a website started as learning project by three friends to fiddle with the internet. Initially consisting of entertaining articles providing a youthful unperturbed by commercial, insight of the world. All relevant information that will make your life better will be generated at one place. Don’t mistake us for a website having political ambitions or any political inclination but a website providing you with all sides of the sphere from humour to reviews.</H4>
+        </p>
+        <p class="para"><H4 class="h_4" >
+            Artickly gives you the freedom and publicity to share your thought to the like minded world. We believe in originality and welcome any ideas that you passionately believe in. Let Artickly be the messenger for your thoughts.  
+        </H4>
+    </p>
+    <p class="para"><H4 class="h_4">We, at Artickly, work energetically to bring these ideas together to give the much needed power to the goodness and purity of your heart. So we welcome you to Artickly, where we provide you a platform to share your ideas and head towards a brighter future.Artickly is a mic to shout out your art and ideas to make this world a better place.Do forgive us if we fall somewhere in the journey.</H4>
+    </p>
+    <p class="para">
+        <H4 class="h_4"><I>
+            “ Without freedom of thought-, there can be no such thing as wisdom; and no such thing as public liberty without freedom of speech; which is the right of every man as far as by it he does not hurt or control the right of another; and this is the only check it ought to suffer and the only bounds it ought to know.... Whoever would overthrow the liberty of a nation must begin by subduing the freedom of speech, a thing terrible to traitor”</I>
+            <br>
+            -Benjamin Franklin</H4>
+        </p>
+        <p></p>
+        <p class="para"><H4 class="h_4" >If you are interested to write for us, mail us at <span id="mailid">admin@artickly.com</span> and we will get back to you as soon as possible.</H4></p>
+        <p></p>
+        <p class="para"><H3 class="h_3" >We want you, We need you, We Love you.</H3></p>
+    </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
+

@@ -1,0 +1,89 @@
+.body{
+    max-width : 100%;
+    overflow-x: hidden;
+}
+
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+.float-centre{
+    margin-left: auto;
+    margin-left : auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.ImgHead{
+    max-height : 100 px;
+    max-width : 80% ;
+    width: auto ;
+    height : auto;
+}
+
+.ImgThumb{
+    max-height : 20% px;
+    max-width : 20% ;
+    width: auto ;
+    height : auto;
+}
+
+.Icon
+{
+    height: 100%;
+    width : 100%;
+}
+
+
+
+.listArt.ng-enter {
+    -webkit-animation: fadeInLeft 1s;
+    -moz-animation: fadeInLeft 1s;
+    -ms-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+  }
+  
+.listArt.ng-leave {
+    -webkit-animation: bounceOut 1s;
+    -moz-animation: bounceOut 1s;
+    -ms-animation: bounceOut 1s;
+    animation: bounceOut 1s;
+  }
+  
+
+
+/***** Animation *******/
+/*.my-repeat-animation.ng-enter, 
+.my-repeat-animation.ng-leave, 
+.my-repeat-animation.ng-move {
+    -webkit-transition: .25s ease all .001s; /* Chrome */
+}
+/*
+.my-repeat-animation.ng-enter {
+  opacity: 0;
+  -webkit-transform: scale(0.6);
+}
+.my-repeat-animation.ng-enter.ng-enter-active {
+  opacity: 1;
+  -webkit-transform: scale(1);
+}
+
+.my-repeat-animation.ng-leave {
+  opacity: 1;
+  -webkit-transform: scale(1);
+}
+.my-repeat-animation.ng-leave.ng-leave-active {
+  opacity: 0;
+  -webkit-transform: scale(0.6);
+}
+
+.my-repeat-animation.ng-move {  
+}
+.my-repeat-animation.ng-move.ng-move-active {
+}*/

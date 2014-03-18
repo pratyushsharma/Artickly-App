@@ -1,0 +1,196 @@
+.body{
+    max-width : 100%;
+    overflow-x: hidden;
+}
+
+
+.splash{
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+}
+
+.decenteredButton{
+    margin-top:-6%;
+}
+
+#sp-nav {
+    display:none;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+.float-centre{
+    margin-left: auto;
+    margin-left : auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.ImgHead{
+    max-height : 80% ;
+    max-width : 80% ;
+    width: auto ;
+    height : auto;
+    margin-left:10%;
+}
+
+.ImgThumb{
+    max-height : 20% ;
+    max-width : 20% ;
+    width: auto ;
+    height : auto;
+}
+
+.Icon
+{
+    height: 100%;
+    width : 100%;
+}
+
+.iconThumb
+{
+    max-height:50%;
+    max-width: 20%;
+}
+
+.imgHold{
+    margin-right : 5% ;
+    padding-bottom :5% !important ;
+}
+
+.unClicked{
+    top: 30% ;
+    left : 40%;
+    position: relative;   
+    display:none;
+    
+}
+
+.Clicked{
+    -webkit-animation: lightSpeedIn 1s;
+    -moz-animation: lightSpeedIn 1s;
+    -ms-animation: lightSpeedIn 1s;
+    animation: lightSpeedIn 1s;
+    position:absolute;
+    top:80%;
+    left:13%;
+    z-index:5;
+}
+
+#magic {
+    background: rgba(86,80,81,0.7);
+    color:white;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.paltu.ng-enter{
+    -webkit-animation: fadeInLeft 1s;
+    -moz-animation: fadeInLeft 1s;
+    -ms-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+}
+
+
+.listArt.ng-enter {
+    -webkit-animation: fadeInLeft 1s;
+    -moz-animation: fadeInLeft 1s;
+    -ms-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+  }
+  
+.listArt.ng-leave {
+    -webkit-animation: fadeOutLeft 1s;
+    -moz-animation: fadeOutLeft 1s;
+    -ms-animation: fadeOutLeft 1s;
+    animation: fadeOutLeft 1s;
+  }
+  
+  .centeredButton {
+      margin-top:4%;
+  }
+  
+  .centeredImg{
+      margin-top:2%;
+  }
+
+  .leftGap {
+      margin-left:10%;
+  }
+  
+  .windowsPhoneTiles {
+      width:41%;
+      height:18%;
+      margin-left:6%;
+      color:black;
+      float:left;
+      margin-top:10px;
+      border-radius:5px;
+      box-shadow : 1px 1px 1px #999;
+      overflow-y:hidden;
+      background-size:cover;
+  }
+  
+  .tileSticker {
+      background: rgba(255,255,255,0.7);
+      text-align: center;
+      margin-top:65%;
+      margin-bottom:0px;
+      bottom:0;
+  }
+  
+  .peopleHeading {
+      font-family: 'Helvetia';
+  }
+  
+  #sp-page {
+      border-left:1px solid #000;
+  }
+  
+  
+/***** Animation *******/
+/*.my-repeat-animation.ng-enter, 
+.my-repeat-animation.ng-leave, 
+.my-repeat-animation.ng-move {
+    -webkit-transition: .25s ease all .001s; /* Chrome */
+}
+/*
+.my-repeat-animation.ng-enter {
+  opacity: 0;
+  -webkit-transform: scale(0.6);
+}
+.my-repeat-animation.ng-enter.ng-enter-active {
+  opacity: 1;
+  -webkit-transform: scale(1);
+}
+
+.my-repeat-animation.ng-leave {
+  opacity: 1;
+  -webkit-transform: scale(1);
+}
+.my-repeat-animation.ng-leave.ng-leave-active {
+  opacity: 0;
+  -webkit-transform: scale(0.6);
+}
+
+.my-repeat-animation.ng-move {  
+}
+.my-repeat-animation.ng-move.ng-move-active {
+}*/
